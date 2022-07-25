@@ -1,0 +1,28 @@
+{
+	"name": "middle.messenger.praktikum.yandex",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx parcel static/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/prostohttp/middle.messenger.praktikum.yandex.git"
+	},
+	"keywords": [],
+	"author": "Морозов Михаил",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/prostohttp/middle.messenger.praktikum.yandex/issues"
+	},
+	"homepage": "https://github.com/prostohttp/middle.messenger.praktikum.yandex#readme",
+	"devDependencies": {
+		"@parcel/transformer-sass": "^2.6.2",
+		"parcel": "^2.6.2",
+		"parcel-transformer-hbs": "^1.0.4"
+	},
+	"dependencies": {
+		"handlebars": "^4.7.7"
+	}
+}

@@ -1,0 +1,9 @@
+@import "../../styles/colors.scss";
+.pages-examples {
+  text-align: center;
+  line-height: 2;
+  a {
+    color: $accent-color;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../styles/colors.scss";
+@import "../../styles/fonts.scss";
+@import "../../styles/mixins.scss";
+
+.avatar {
+	@include flex-vertical-center();
+	gap: 20px;
+
+	.avatar-block {
+		@include flex-vertical-center();
+		width: 130px;
+		height: 130px;
+		background-color: $medium-light-bg;
+		border-radius: 50%;
+	}
+
+	h2 {
+		font-size: 16px;
+		color: $main-color;
+		@include font-weight(600);
+	}
+}

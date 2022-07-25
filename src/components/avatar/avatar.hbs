@@ -1,0 +1,14 @@
+<div class="avatar">
+	<div class="avatar-block">
+		<img src="{{image}}" alt="{{login}}" />
+		<span class="backdrop-avatar-change">
+			Поменять
+			<br />
+			аватар
+			<input id="change-avatar" type="file" name="avatar" hidden />
+		</span>
+	</div>
+	{{#if login}}
+		<h2>{{login}}</h2>
+	{{/if}}
+</div>
