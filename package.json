@@ -2,9 +2,9 @@
 	"name": "middle.messenger.praktikum.yandex",
 	"version": "1.0.0",
 	"description": "",
-	"main": "index.js",
 	"scripts": {
-		"start": "npx parcel static/index.html"
+		"start": "npx parcel static/index.html --dist-dir ./build",
+		"build": "npx parcel build static/index.html "
 	},
 	"repository": {
 		"type": "git",
