@@ -1,0 +1,24 @@
+@import "../../styles/colors.scss";
+
+.profile-footer {
+	margin-top: 50px;
+	width: 510px;
+
+	li {
+		border-bottom: 1px solid $strong-light-bg;
+
+		&:last-child {
+			border-bottom: none;
+		}
+
+		a {
+			color: $accent-color;
+			padding: 15px 0;
+			display: inline-block;
+		}
+	}
+
+	.exit {
+		color: $error-color;
+	}
+}

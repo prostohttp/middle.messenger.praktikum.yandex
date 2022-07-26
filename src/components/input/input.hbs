@@ -1,0 +1,28 @@
+<label for="{{name}}">{{label}}
+	{{#if value}}
+		{{#if disabled}}
+			<input
+				type="{{type}}"
+				name="{{name}}"
+				id="{{name}}"
+				value="{{value}}"
+				disabled
+			/>
+		{{/if}}
+	{{/if}}
+	{{#if value}}
+		{{#unless disabled}}
+			<input type="{{type}}" name="{{name}}" id="{{name}}" value="{{value}}" />
+		{{/unless}}
+	{{/if}}
+	{{#unless value}}
+		{{#if disabled}}
+			<input type="{{type}}" name="{{name}}" id="{{name}}" disabled />
+		{{/if}}
+	{{/unless}}
+	{{#unless value}}
+		{{#unless disabled}}
+			<input type="{{type}}" name="{{name}}" id="{{name}}" />
+		{{/unless}}
+	{{/unless}}
+</label>
