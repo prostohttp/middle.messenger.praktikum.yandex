@@ -6,5 +6,5 @@ import form from "../../components/form";
 
 export default tpl({
 	registerButton: button("register", "Зарегистрироваться"),
-	form: form(filelds)
+	form: form(filelds),
 });

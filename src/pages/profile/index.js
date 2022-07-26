@@ -6,9 +6,8 @@ import "./profile.scss";
 import { accoutFields } from "./profile";
 import form from "../../components/form";
 
-
 export default tpl({
-  avatar: avatar(profile, "Михаил"),
-  form: form(accoutFields),
-  backIcon,
+	avatar: avatar(profile, "Михаил"),
+	form: form(accoutFields),
+	backIcon,
 });

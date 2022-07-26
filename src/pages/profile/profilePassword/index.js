@@ -7,10 +7,9 @@ import "./profilePassword.scss";
 import { passwordFields } from "./profilePassword.js";
 import form from "../../../components/form";
 
-
 export default tpl({
-  avatar: avatar(profile),
-  form: form(passwordFields),
-  button: button("save-data", "Сохранить"),
-  backIcon,
+	avatar: avatar(profile),
+	form: form(passwordFields),
+	button: button("save-data", "Сохранить"),
+	backIcon,
 });

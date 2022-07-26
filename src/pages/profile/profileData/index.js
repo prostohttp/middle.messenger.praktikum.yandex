@@ -7,10 +7,9 @@ import "./profileData.scss";
 import { profileData } from "./profileData.js";
 import form from "../../../components/form";
 
-
 export default tpl({
-  avatar: avatar(profile),
-  form: form(profileData),
-  button: button("save-data", "Сохранить"),
-  backIcon,
+	avatar: avatar(profile),
+	form: form(profileData),
+	button: button("save-data", "Сохранить"),
+	backIcon,
 });

@@ -5,10 +5,10 @@ const PORT = 3000;
 
 app.use(express.static(path.join(__dirname, "dist")));
 const index = path.join(__dirname, "/dist/index.html");
-app.use("/*", (req, res) => {
+app.use("/*", (_, res) => {
 	res.sendFile(index);
 });
 
 app.listen(PORT, () => {
-  console.log(`Example app listening at http://localhost:${PORT}`);
+	console.log(`Example app listening at http://localhost:${PORT}`);
 });
