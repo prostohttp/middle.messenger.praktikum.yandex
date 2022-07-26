@@ -3,10 +3,12 @@
 @import "../../styles/mixins.scss";
 
 .avatar {
+	display: flex;
 	@include flex-vertical-center();
 	gap: 20px;
 
 	.avatar-block {
+		display: flex;
 		@include flex-vertical-center();
 		width: 130px;
 		height: 130px;
