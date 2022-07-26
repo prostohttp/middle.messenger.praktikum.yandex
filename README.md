@@ -1,5 +1,6 @@
 # Проект первого спринта "Мессенджер".
-Макет в **[FIGMA](https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0%3A1)**
+- Макет в **[FIGMA](https://www.figma.com/file/jF5fFFzgGOxQeB4CmKWTiE/Chat_external_link?node-id=0%3A1)**
+- Ссылка на **[Netlify](https://mike-morozov-yandex-messenger.netlify.app/)**
 ## Скрипты ##
 - Сборка Parcel: **npm run build**
 - Express: **npm run start**
