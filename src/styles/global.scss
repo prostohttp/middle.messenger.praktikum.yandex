@@ -177,26 +177,4 @@ button {
 			}
 		}
 	}
-
-	.avatar-block {
-		overflow: hidden;
-		position: relative;
-		.backdrop-avatar-change {
-			display: none;
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			background-color: rgb(0 0 0 / 53%);
-			color: #fff;
-			border-radius: 50%;
-			text-align: center;
-			@include flex-vertical-center();
-		}
-		&:hover {
-			.backdrop-avatar-change {
-				display: flex;
-				cursor: pointer;
-			}
-		}
-	}
 }
