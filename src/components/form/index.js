@@ -3,8 +3,8 @@ import input from "../input";
 
 export default (props = {}) => {
 	const inputs = [];
-	for (const { label, type, name, value, disabled } of Object.values(props)) {
-		inputs.push(input(label, type, name, value, disabled));
+	for (const { label, type, name, value } of Object.values(props)) {
+		inputs.push(input(label, type, name, value));
 	}
 	return tpl({
 		inputs,

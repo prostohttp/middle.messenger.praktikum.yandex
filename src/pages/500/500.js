@@ -1,1 +1,1 @@
-export const error_code = "500";
+export const ERROR_CODE = "500";

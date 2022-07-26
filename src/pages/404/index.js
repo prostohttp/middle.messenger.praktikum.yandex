@@ -1,4 +1,4 @@
 import tpl from "./404.hbs";
-import { error_code } from "./404";
+import { ERROR_CODE } from "./404";
 
-export default tpl({ code: error_code });
+export default tpl({ code: ERROR_CODE });

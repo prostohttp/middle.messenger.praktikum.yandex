@@ -1,4 +1,4 @@
 import tpl from "./500.hbs";
-import { error_code } from "./500";
+import { ERROR_CODE } from "./500";
 
-export default tpl({ code: error_code });
+export default tpl({ code: ERROR_CODE });

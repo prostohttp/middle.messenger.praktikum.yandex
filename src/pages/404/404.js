@@ -1,1 +1,1 @@
-export const error_code = "404";
+export const ERROR_CODE = "404";
